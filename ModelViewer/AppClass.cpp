@@ -8,6 +8,7 @@ void AppClass::InitWindow(String a_sWindowName)
 	//is on the InitVariables it will always force it regardless of the .cfg
 	m_v4ClearColor = vector4(0.0f);
 }
+
 void AppClass::InitVariables(void)
 {
 	m_pCameraMngr->SetPosition(REAXISZ * 15.0f);
