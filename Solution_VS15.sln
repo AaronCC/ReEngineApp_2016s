@@ -2,10 +2,14 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 <<<<<<< HEAD
+<<<<<<< HEAD
 VisualStudioVersion = 14.0.24720.0
 =======
 VisualStudioVersion = 14.0.25420.1
 >>>>>>> 2aa077c37665e1ac5adaa9ebfc75868d8f897be5
+=======
+VisualStudioVersion = 14.0.23107.0
+>>>>>>> d8eda33aa6d12cbf7e14147db00d4a8e46d8a8a7
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01_Basics", "01_Basics\01_Basics.vcxproj", "{425ED9DA-852E-4F61-BE06-487F68A6187E}"
 EndProject
@@ -65,9 +69,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "E06s_Transformations_DEMO",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "A06_LERP", "A06_LERP\A06_LERP.vcxproj", "{8FB45351-2348-4127-9143-D866C86EE527}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "E09_Gimbal_Lock", "E09_Gimbal Lock\E09_Gimbal Lock.vcxproj", "{1526B5D0-627C-4057-91F9-4D7289CB8CFE}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "E09_Gimbal_Lock", "E09_Gimbal_Lock\E09_Gimbal_Lock.vcxproj", "{1526B5D0-627C-4057-91F9-4D7289CB8CFE}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "E07_LERP", "E07s_LERP\E07s_LERP.vcxproj", "{F2B4B292-2881-40EA-A091-57D14FB1AE05}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "E07s_LERP", "E07s_LERP\E07s_LERP.vcxproj", "{F2B4B292-2881-40EA-A091-57D14FB1AE05}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

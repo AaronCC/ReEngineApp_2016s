@@ -52,6 +52,21 @@ void AppClass::Update(void)
 
 	//Adds all loaded instance to the render list
 	m_pMeshMngr->AddSkyboxToRenderList();
+
+
+	/* QUAT DEMO
+	quaternion q1 = quaternion(0.7f, 0.0f, 0.0f, 0.7f);
+	quaternion q2 = quaternion(vector3(0.0f, glm::radians(90.0f), 0.0f)); Using rads
+	quaternion q3 = glm::axisAngle(90.0f, vector3(1.f, 0.f, 0.f));
+
+	static float fTimer = 0.0f;
+	q3 = glm::mix(q1,q2,fTimer); LERP
+	fTimer += 0.1f;
+
+	m_pMeshMngr->SetModelMatrix(ToMatrix4(q1), "Cow");
+	*/
+
+
 	m_pMeshMngr->AddInstanceToRenderList("ALL");
 
 	//Indicate the FPS

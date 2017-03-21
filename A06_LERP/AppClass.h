@@ -15,6 +15,10 @@ class AppClass : public ReEngAppClass
 	float fDuration = 1.0f; //Time Duration of the stops
 public:
 	typedef ReEngAppClass super;
+	std::vector<vector3> m_points; // waypoint locations 
+	std::vector<matrix4> m_sMats; // waypoint mat4s
+	std::vector<PrimitiveClass*> m_spheres; // waypoint primitives
+	int m_pIndex = 0;
 	/*
 	USAGE: Constructor
 	ARGUMENTS:

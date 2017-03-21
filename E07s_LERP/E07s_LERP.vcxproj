@@ -13,7 +13,7 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{F2B4B292-2881-40EA-A091-57D14FB1AE05}</ProjectGuid>
     <RootNamespace>E07_LERP</RootNamespace>
-    <ProjectName>E07_LERP</ProjectName>
+    <ProjectName>E07s_LERP</ProjectName>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
