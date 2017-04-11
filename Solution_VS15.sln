@@ -89,6 +89,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex01_A", "Ex01_A\Ex01_A.vcx
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex01_B", "Ex01_B\Ex01_B.vcxproj", "{B1F0F215-F6DE-426D-8AB8-B85644569D5A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "W9R_BoundingSphereDEMO", "W9R_BoundingSphereDEMO\W9R_BoundingSphereDEMO.vcxproj", "{625922B3-FF5F-49AF-84A3-8E4BAD5B8DC4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -229,7 +231,14 @@ Global
 		{B1F0F215-F6DE-426D-8AB8-B85644569D5A}.Debug|x86.Build.0 = Debug|Win32
 		{B1F0F215-F6DE-426D-8AB8-B85644569D5A}.Release|x86.ActiveCfg = Release|Win32
 		{B1F0F215-F6DE-426D-8AB8-B85644569D5A}.Release|x86.Build.0 = Release|Win32
+<<<<<<< HEAD
 >>>>>>> 12bb3b4997f10d1c3d4621ca9e2998f3acb7bb1a
+=======
+		{625922B3-FF5F-49AF-84A3-8E4BAD5B8DC4}.Debug|x86.ActiveCfg = Debug|Win32
+		{625922B3-FF5F-49AF-84A3-8E4BAD5B8DC4}.Debug|x86.Build.0 = Debug|Win32
+		{625922B3-FF5F-49AF-84A3-8E4BAD5B8DC4}.Release|x86.ActiveCfg = Release|Win32
+		{625922B3-FF5F-49AF-84A3-8E4BAD5B8DC4}.Release|x86.Build.0 = Release|Win32
+>>>>>>> bd06c0b47424c4dc82076e82e07c86d2f201ae66
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -279,6 +288,10 @@ Global
 =======
 		{C8CC8011-40C5-40B9-857B-7897DBBF2BDC} = {8A9C6231-C3D4-493B-A18E-E134FC3A1A35}
 		{B1F0F215-F6DE-426D-8AB8-B85644569D5A} = {8A9C6231-C3D4-493B-A18E-E134FC3A1A35}
+<<<<<<< HEAD
 >>>>>>> 12bb3b4997f10d1c3d4621ca9e2998f3acb7bb1a
+=======
+		{625922B3-FF5F-49AF-84A3-8E4BAD5B8DC4} = {2D1B6711-5C2F-40D1-81B0-C84AEDAA4353}
+>>>>>>> bd06c0b47424c4dc82076e82e07c86d2f201ae66
 	EndGlobalSection
 EndGlobal
