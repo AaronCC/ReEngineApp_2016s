@@ -49,7 +49,7 @@ void AppClass::Update(void)
 	//Indicate the FPS
 	int nFPS = m_pSystem->GetFPS();
 	//Print info on the screen
-	m_pMeshMngr->PrintLine("");
+	m_pMeshMngr->PrintLine("");//Add a line on top
 	m_pMeshMngr->PrintLine(m_pSystem->GetAppName(), REYELLOW);
 	m_pMeshMngr->Print("FPS:");
 	m_pMeshMngr->Print(std::to_string(nFPS), RERED);
